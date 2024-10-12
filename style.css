@@ -130,6 +130,7 @@ svg {
 }
 .footer-img-container{
   display: flex;
+  max-height: 400px;
 }
 .footer-img {
   width: 100%;
