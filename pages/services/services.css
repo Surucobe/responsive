@@ -36,3 +36,22 @@ body {
     text-transform: uppercase;
   }
 }
+
+ul {
+  list-style: none;
+}
+
+.services-gallery {
+  padding: var(--section-padding);
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 500px;
+  row-gap: 20px;
+  column-gap: 35px;
+  justify-content: space-between;
+}
+
+.service-card {
+  border: 1px solid #000;
+}
