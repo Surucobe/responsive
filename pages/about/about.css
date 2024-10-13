@@ -1,0 +1,85 @@
+:root {
+  --section-padding: 0 80px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+svg {
+  height: 50px;
+}
+
+.navbar {
+  padding: var(--section-padding);
+  background-color: #0891B2;
+  height: 4.5em;
+  > ul {
+    height: 100%;
+    gap: 35px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.about-me {
+  padding: 60px;
+  background-color: #0891B2;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.about-me-name{
+  display: flex;
+  position: relative;
+  max-width: 400px;
+  border: 1px solid black;
+  transform: translateX(10px);
+  h2{
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+  }
+  img{
+    width: 100%;
+  }
+}
+.about-me-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-left: 0;
+  box-shadow: 8px 8px #E5E5E5;
+  gap: 20px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.social-media-header {
+  display: flex;
+  justify-content: end;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+}
