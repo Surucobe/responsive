@@ -1,0 +1,38 @@
+:root {
+  --section-padding: 0 80px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: var(--section-padding);
+  background-color: #0891B2;
+  height: 4.5em;
+  > ul {
+    height: 100%;
+    gap: 35px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
