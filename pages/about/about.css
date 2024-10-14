@@ -84,3 +84,33 @@ svg {
     list-style: none;
   }
 }
+
+.footer {
+  padding: var(--section-padding);
+  background-color: #0891B2;
+  box-sizing: border-box;
+  color: #fff;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  ul {
+    list-style: none;
+  }
+}
+.footer-img-container{
+  display: flex;
+  max-height: 400px;
+}
+.footer-img {
+  width: 100%;
+}

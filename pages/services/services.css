@@ -9,6 +9,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+svg {
+  height: 50px;
+}
+
 a{
   text-decoration: none;
 }
@@ -44,6 +48,7 @@ ul {
 .services-gallery {
   padding: var(--section-padding);
   padding-top: 20px;
+  padding-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 500px;
@@ -54,4 +59,38 @@ ul {
 
 .service-card {
   border: 1px solid #000;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: var(--section-padding);
+  background-color: #0891B2;
+  box-sizing: border-box;
+  color: #fff;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  ul {
+    list-style: none;
+  }
+}
+.footer-img-container{
+  display: flex;
+  max-height: 400px;
+}
+.footer-img {
+  width: 100%;
 }
